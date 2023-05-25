@@ -57,7 +57,9 @@ function createTaskFunc(value,index){
     container.append(div);
 
     btn.addEventListener("click",()=>{
-        tasks.splice(index,1)
+        clearTasks();   
+        tasks.splice(index,1);
+        showAllTasks();
         console.log(tasks);
     })
 }
