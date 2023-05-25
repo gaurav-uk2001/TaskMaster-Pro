@@ -11,13 +11,7 @@ form.addEventListener("submit",formClick);
 function formClick(e){
     e.preventDefault();
 
-    // clearTasks();
-    if(tasks.length != 0){
-    const div = document.querySelector(".task");
-    div.remove();
-    }
-    
-
+    clearTasks();
     tasks.push({
         title:title.value,
         description:description.value,
@@ -26,12 +20,12 @@ function formClick(e){
 }
 
 
-// function clearTasks(){
-//     tasks.forEach(()=>{
-//         const div = document.querySelector(".task");
-//         div.remove();
-//     })
-// }
+function clearTasks(){
+    tasks.forEach(()=>{
+        const div = document.querySelector(".task");
+        div.remove();
+    })
+}
 
 function showAllTasks(){
     tasks.forEach(createTaskFunc);   
@@ -63,6 +57,7 @@ function createTaskFunc(value,index){
     container.append(div);
 
     btn.addEventListener("click",()=>{
-
+        tasks.splice(index,1)
+        console.log(tasks);
     })
 }
