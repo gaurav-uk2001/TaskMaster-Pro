@@ -10,6 +10,12 @@ form.addEventListener("submit",formClick);
 
 function formClick(e){
     e.preventDefault();
+
+    // clearTasks();
+    if(tasks.length != 0){
+    const div = document.querySelector(".task");
+    div.remove();
+    }
     
 
     tasks.push({
