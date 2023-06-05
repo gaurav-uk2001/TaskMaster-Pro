@@ -8,6 +8,7 @@ To View the live site click [here &rarr;](https://gaurav-uk2001.github.io/Todo_J
 ## Features
 
 - Clean, Simple and Modern UI Design.
+- Task store in Session Storage means Tasks doesn't vanish even after refresh. 
 - Users can create new tasks by adding titles, descriptions.
 - Users can create new tasks by adding titles, descriptions
 - Built with only HTML, CSS and a bit of JavaScript 🔨.
