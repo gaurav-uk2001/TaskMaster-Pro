@@ -1,7 +1,7 @@
 # Todo_JS
 Making todo or daily task list using pure JavaScript✨.
 
-To View the live site click [here &rarr;](https://gaurav-uk2001.github.io/Todo_JS/)
+To View the live site click [here &rarr;](https://gaurav-uk2001.github.io/TaskMaster-Pro/)
 
 ![Portfolio Gif](/portfolio.gif)
 
